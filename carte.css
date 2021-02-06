@@ -35,6 +35,8 @@ main h3{
         align-content: center;
 
         padding: 1em;
+        margin: 1em;
+        height: 400px;
         
 }
 
@@ -46,6 +48,7 @@ main h3{
 .type-produit em{
     font-weight: bold;
     margin-left: 1em;
+    
    
 }
 
