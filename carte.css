@@ -1,0 +1,56 @@
+main h2{
+    font-size: 3em;
+    font-weight: bold;
+    padding-top: 1em;
+
+}
+
+main h3{
+    font-size: 2em;
+    font-weight: bold;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    text-align: center;
+}
+
+.card{
+    display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: flex-start;
+        align-items: center;
+        align-content: center;
+
+        width: 70vw;
+}
+
+.type-produit{
+    border: 1px #fff solid;
+
+    display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        align-items: center;
+        align-content: center;
+
+        padding: 1em;
+        
+}
+
+.type-produit ul{
+    line-height: 1.5em;
+
+}
+
+.type-produit em{
+    font-weight: bold;
+    margin-left: 1em;
+   
+}
+
+.type-produit h4 {
+    font-size: 1.3em;
+    font-weight: bold;
+    padding-bottom: 1em;
+}
