@@ -1,0 +1,189 @@
+body{
+    background-color: rgb(112, 56, 46);
+    
+        width: 100vw;
+        height: 100vh;
+        font-family: 'Roboto', sans-serif;
+    
+    }
+    
+    header h1{
+        background-color:rgb(255, 38, 0) ;
+        height: 2em;
+        font-size: 3em;
+        font-weight: bold;
+        text-align: center;
+        color: #fff;
+    
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        align-content: center;
+    }
+    
+    header p{
+        background-color: rgb(207, 202, 202);
+        width: 100vw;
+        text-align: center;
+        padding: .8em;
+        height: 1.3em;
+    }
+    
+    header em{
+        font-style: italic;
+        font-size: 1.2em;
+       
+    }
+    
+    .navBarre{
+        background-color: rgb(207, 202, 202);
+        
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        align-items: center;
+        align-content: center;
+        padding: 1em;
+    
+    }
+    
+    .navBarre a{
+        text-decoration: none;
+        color: rgb(255, 38, 0);
+        font-weight: bold;
+    }
+    
+    main{
+    
+        margin-left: 5em;
+        margin-right: 5em;
+      
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        align-items: center;
+        align-content: center;
+    
+        flex-grow: 2;
+        background: rgb(34,193,195);
+        background: linear-gradient(241deg, rgba(34,193,195,1) 0%, rgba(253,187,45,1) 100%);
+    }
+    
+    img{
+        display: block;
+    }
+    
+    .Présentation{
+    
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content:space-around;
+        align-items: center;
+        align-content: center;
+    }
+    
+    .Présentation h2{
+        font-size: 2em;
+        font-weight: bold;
+        padding-top: 1em;
+    
+    }
+    
+    .Présentation-picture{
+        width: 70vw;
+        height: 70vh;
+        padding-top: 1em;
+        padding-bottom: 1em;
+    }
+    
+    .Présentation-picture_img-enseigne{
+        object-fit: contain;
+        height: 100%;
+        width: 100%;
+    }
+    
+    .Présentation-projet{
+        width: 70vw;
+        font-weight: bold;
+        margin-bottom: 2em;
+    }
+    
+    .Présentation-personnel{
+        border: 1px solid rgb(24, 22, 24);
+        width: 70vw;
+        height: auto;
+    
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        justify-content:flex-start;
+        align-items: stretch;
+        align-content: stretch;
+    
+    }
+    
+    .Présentation-personnel-pictures{
+        width: 100%;
+        height: 50vh;
+        margin-bottom: 1em;
+        margin-top: 1em;
+    }
+    
+    .Présentation--jacques{
+        border: rgb(8, 3, 2) 2px solid;
+        width: 35vw;
+        padding: 1em;
+    
+    }
+    
+    .Présentation--jacques h3{
+        font-size: 2em;
+        font-weight: bold;
+        text-align: center;
+    }
+    
+    .Présentation--jacques-picture{
+        object-fit: contain;
+        height: 100%;
+        width: 100%;
+    }
+    
+    .Présentation--annick{
+        border: rgb(7, 14, 8) 2px solid;
+        width: 35vw;
+        padding: 1em;
+    }
+    
+    .Présentation--annick h3{
+        font-size: 2em;
+        font-weight: bold;
+        text-align: center;
+    }
+    
+    
+    .Présentation--annick-picture{
+        object-fit: contain;
+        height: 100%;
+        width: 100%;
+    }
+    
+    .Présentation-content{
+    
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content:space-around;
+        align-items: center;
+        align-content: center;
+    }
+    
+    .Présentation-content p{
+        font-size: 1.1em;
+        line-height: 1.2em;
+    }
+    
